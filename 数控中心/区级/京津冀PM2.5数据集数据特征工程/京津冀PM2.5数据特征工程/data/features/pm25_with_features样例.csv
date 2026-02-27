@@ -1,0 +1,5 @@
+date,city,pm25,data_quality_flag,year,month,day,dayofweek,quarter,is_weekend,season,rolling_avg_7d,rolling_avg_30d,trend_30d,year_over_year_change,pollution_event_id,event_duration,peak_intensity,event_severity_index,regional_avg_pm25,deviation_from_regional_avg,regional_rank,is_regional_hotspot,policy_period,special_event_flag,aqi_category,exceedance_flag_35,exceedance_flag_75,cumulative_exposure_7d,cumulative_exposure_30d,cumulative_exposure_365d,exceedance_burden_365d
+2015-01-01,保定市,143.0,0,2015,1,1,3,1,0,4,,,,,E保定0683,66,441.0,683.5253439397438,61.38461538461539,132.95739348370927,1.0,1,大气十条时期,0,中度污染,1,1,1,1,1,108.0
+2015-01-02,保定市,180.0,0,2015,1,2,4,1,0,4,,,,,E保定0683,66,441.0,683.5253439397438,84.38461538461539,113.30902461257976,1.0,1,大气十条时期,0,重度污染,1,1,2,2,2,253.0
+2015-01-03,保定市,305.0,0,2015,1,3,5,1,1,4,209.33333333333334,,,,E保定0683,66,441.0,683.5253439397438,161.69230769230768,88.62987630827784,1.0,1,大气十条时期,0,严重污染,1,1,3,3,3,523.0
+2015-01-04,保定市,441.0,0,2015,1,4,6,1,1,4,267.25,,,,E保定0683,66,441.0,683.5253439397438,263.2307692307692,67.53360607831678,2.0,1,大气十条时期,0,严重污染,1,1,4,4,4,929.0

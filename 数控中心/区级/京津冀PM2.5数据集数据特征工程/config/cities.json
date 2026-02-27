@@ -1,0 +1,19 @@
+{
+  "直辖市": [
+    {"name": "北京", "pinyin": "beijing"},
+    {"name": "天津", "pinyin": "tianjin"}
+  ],
+  "河北省": [
+    {"name": "石家庄", "pinyin": "shijiazhuang"},
+    {"name": "唐山", "pinyin": "tangshan"},
+    {"name": "秦皇岛", "pinyin": "qinhuangdao"},
+    {"name": "邯郸", "pinyin": "handan"},
+    {"name": "邢台", "pinyin": "xingtai"},
+    {"name": "保定", "pinyin": "baoding"},
+    {"name": "张家口", "pinyin": "zhangjiakou"},
+    {"name": "承德", "pinyin": "chengde"},
+    {"name": "沧州", "pinyin": "cangzhou"},
+    {"name": "廊坊", "pinyin": "langfang"},
+    {"name": "衡水", "pinyin": "hengshui"}
+  ]
+}

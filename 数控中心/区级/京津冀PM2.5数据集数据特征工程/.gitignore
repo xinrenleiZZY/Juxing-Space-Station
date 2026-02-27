@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.venv/
+data/aqi_database.db
+*.db
+.env
