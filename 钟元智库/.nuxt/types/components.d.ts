@@ -14,8 +14,8 @@ type HydrationStrategies = {
 type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {}, {}, { hydrated: () => void }> & T
 
 interface _GlobalComponents {
-  Footer: typeof import("../../components/Footer.vue")['default']
-  Navbar: typeof import("../../components/Navbar.vue")['default']
+  CommonFooter: typeof import("../../components/common/Footer.vue")['default']
+  CommonHeader: typeof import("../../components/common/Header.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
   NuxtLayout: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
   NuxtErrorBoundary: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']
@@ -39,8 +39,8 @@ interface _GlobalComponents {
   Html: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Html']
   Body: typeof import("../../node_modules/nuxt/dist/head/runtime/components")['Body']
   NuxtIsland: typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island")['default']
-  LazyFooter: LazyComponent<typeof import("../../components/Footer.vue")['default']>
-  LazyNavbar: LazyComponent<typeof import("../../components/Navbar.vue")['default']>
+  LazyCommonFooter: LazyComponent<typeof import("../../components/common/Footer.vue")['default']>
+  LazyCommonHeader: LazyComponent<typeof import("../../components/common/Header.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
   LazyNuxtLayout: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
   LazyNuxtErrorBoundary: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-error-boundary.vue")['default']>
